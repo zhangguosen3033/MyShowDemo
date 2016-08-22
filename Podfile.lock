@@ -1,0 +1,18 @@
+PODS:
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - LFLiveKit (2.1)
+  - pili-librtmp (1.0.3.1)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.5.0)
+  - LFLiveKit (~> 2.0)
+  - pili-librtmp (~> 1.0.3.1)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  LFLiveKit: f9a0cb5941e4ab892a7d9522348ae370b19e67e7
+  pili-librtmp: 0adf2516f4b5958b3cb079a4c3d4f6a4a9f49ce9
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  MyShow
+//
+//  Created by Apple on 16/8/17.
+//  Copyright © 2016年 张国森. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define SCREENWIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGH  [UIScreen mainScreen].bounds.size.height
+
+
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import "UIImageView+WebCache.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "BANetManager.h"
+#import "MJRefresh.h"
+#import "GSRefreshGifHeader.h"
+#import "SLTopWindow.h"
+#import "UIView+SLExtension.h"
+#import "UIViewController+SLExtension.h"
+#import "UIImage+ALinExtension.h"
+#import "UIImageView+Extension.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+GSProgressHUD.h"
+#endif /* PrefixHeader_pch */
