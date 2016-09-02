@@ -1,10 +1,3 @@
-//
-//  StartLiveView.m
-//  高仿映客
-//
-//  Created by JIAAIR on 16/7/3.
-//  Copyright © 2016年 JIAAIR. All rights reserved.
-//
 
 #import "StartLiveView.h"
 #import "LFLiveSession.h"
@@ -212,6 +205,7 @@ static int padding = 30;
 #pragma mark ---- <切换摄像头>
 - (UIButton*)cameraButton{
     if(!_cameraButton){
+
         _cameraButton = [UIButton new];
         
          //位置
@@ -272,7 +266,7 @@ static int padding = 30;
             if(_self.startLiveButton.selected){
                 [_self.startLiveButton setTitle:@"结束直播" forState:UIControlStateNormal];
                 LFLiveStreamInfo *stream = [LFLiveStreamInfo new];
-                stream.url = @"rtmp://localhost:1935/rtmplive/room";
+                stream.url = @"rtmp://202.117.80.19:1935/live/live4";
                 [_self.session startLive:stream];
             }else{
                 [_self.session stopLive];
